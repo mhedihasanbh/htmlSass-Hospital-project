@@ -1,0 +1,15 @@
+
+@mixin button($textColor:$white-color,$backgrounColor:$secondary-color){
+display: inline-block;
+width: fit-content;
+padding: 0.7rem 1rem;
+border-radius: 0.4rem;
+background-color: $backgrounColor;
+color: $textColor;
+
+transition: all 400ms ease;
+}
+@mixin gradientBackground{
+  background:linear-gradient(135deg, $primary-color, $primary-color-variant);
+ 
+}
